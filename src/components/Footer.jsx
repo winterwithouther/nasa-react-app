@@ -6,8 +6,8 @@ export default function Footer(props) {
 
             </div>
             <div>
-                <h2>{data?.title}</h2>
                 <h1>APOD PROJECT</h1>
+                <h2>{data?.title}</h2>
             </div>
             <button onClick={handleToggleModel}>
                 <i className="fa-solid fa-circle-info"></i>

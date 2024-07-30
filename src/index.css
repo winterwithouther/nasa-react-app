@@ -118,6 +118,11 @@ footer button:hover {
   background: #030615;
 }
 
+.sidebar-contents h2 {
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
 .sidebar-contents div {
   flex: 1;
 }
@@ -130,6 +135,7 @@ footer button:hover {
   margin-right: auto;
   cursor: pointer;
   transition-duration: 200ms;
+  padding: 1rem 0;
 }
 
 .loading-state {
@@ -153,6 +159,17 @@ footer button:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+.description-title {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 @media (min-width: 640px) {
