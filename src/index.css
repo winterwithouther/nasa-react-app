@@ -128,6 +128,31 @@ footer button:hover {
   border: none;
   outline: none;
   margin-right: auto;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.loading-state i {
+  opacity: 0.2;
+  font-size: 3rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (min-width: 640px) {
